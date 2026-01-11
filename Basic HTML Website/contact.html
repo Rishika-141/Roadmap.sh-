@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+
+    <!-- Meta Tags -->
+    <meta name="keywords" content="Basic HTML Website, Basic HTML CSS Portfolio
+    HTML Website, HTML, CSS, Portfolio, Basic Static Website">
+    <meta name="author" content="Rishika Rohatgi">
+    <meta name="description" content="This is the static Portfolio Website built using HTML and CSS.
+    The purpose of building this static website is to strengthen my foundational knowledge over HTML and CSS.
+    We have multiple pages like home, project, article and contact page which are built using HTML and CSS only but this is not the responsive website.">
+    
+</head>
+<body>
+     <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul type="none" style="display: flex; flex-direction:row; justify-content:space-between;">
+                <li><img src="/Single Page CV/favicon-32x32.png"></li>
+                <li><h4>Rishika Rohatgi</h4></li>
+                <li><a href="home.html" style="color: black">Home</a></li>
+                <li><a href="project.html" style="color: black">Projects</a></li>
+                <li><a href="article.html" style="color: black">Article</a></li>
+                <li><a href="contact.html" style="color: black">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <p style="font-family: cursive; font-size:xx-large; text-align:center; margin: 50px;">
+            Contact Me
+        </p>
+
+        <!-- Contact Form -->
+        
+        <div style="height: 500px; width:500px; border:2px solid black; background-color:darkgray; padding:60px 60px; margin: auto">
+            <form action="pakhirohatgi98@gmail.com" method="post">
+
+                <label for="name" style="font-family: cursive; color:black; font-size:medium;">Name:</label><br><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required style="border: 2px solid black; height: 2em">
+
+                <br>
+                <br>
+
+                <label for="email" style="font-family: cursive; color:black; font-size:medium;">Email:</label><br><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required style="border:2px solid black; height:2em">
+
+                <br>
+                <br>
+
+                <label for="contact" style="font-family: cursive; color:black; font-size:medium;">Contact Number:</label><br><br>
+                <input type="tel" name="contact" id="contact" placeholder="Enter your number" style="border:2px solid black; height:2em">
+
+                <br>
+                <br>
+
+                <label for="message" style="font-family: cursive; color:black; font-size:medium;">Your Message:</label><br><br>
+                <textarea name="message" id="message" required style="width: 400px; height:150px; border:2px solid black" placeholder="Enter your message"></textarea>
+
+                <br>
+                <br>
+
+                <button style="width: 6em; height: 3em; background-color:rgb(188, 160, 215); color:white; text-align:center;">
+                    Submit
+                </button>
+            </form>
+        </div>
+
+    </main>
+</body>
+</html>
